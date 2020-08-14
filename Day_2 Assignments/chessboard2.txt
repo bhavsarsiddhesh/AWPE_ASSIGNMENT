@@ -1,0 +1,105 @@
+<body>
+    <div style="
+         background-color: brown;
+         font-size: 30px;
+         border: 5px solid yellowgreen;
+
+     ">
+        <div style="
+        display: flex;">
+            <!--1st-->
+            <div style="background-color: white;height: 90px;flex:1;">&#9820</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9822</div>
+            <div style="background-color: white;height: 90px;flex:1;">&#9821</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9819</div>
+            <div style="background-color: white;height: 90px;flex:1;">&#9818</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9821</div>
+            <div style="background-color: white;height: 90px;flex:1;">&#9822</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9820</div>
+        </div>
+
+        <div style="display: flex;">
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9823</div>
+            <div style="background-color: white;height: 90px;flex:1">&#9823</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9823</div>
+            <div style="background-color: white;height: 90px;flex:1">&#9823</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9823</div>
+            <div style="background-color: white;height: 90px;flex:1">&#9823</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9823</div>
+            <div style="background-color: white;height: 90px;flex:1">&#9823</div>
+        </div>
+
+        <div style="
+        display: flex;">
+            <!--3st-->
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+        </div>
+
+        <div style="display: flex;">
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+        </div>
+
+        <div style="
+        display: flex;">
+            <!--5st-->
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+            <div style="background-color: white;height: 90px;flex:1"></div>
+            <div style="background-color: black;height: 90px;flex:1"></div>
+        </div>
+
+        <div style="display: flex;">
+            <div style="background-color: black;height: 90px;flex:1;"></div>
+            <div style="background-color: white;height: 90px;flex:1;"></div>
+            <div style="background-color: black;height: 90px;flex:1;"></div>
+            <div style="background-color: white;height: 90px;flex:1;"></div>
+            <div style="background-color: black;height: 90px;flex:1;"></div>
+            <div style="background-color: white;height: 90px;flex:1;"></div>
+            <div style="background-color: black;height: 90px;flex:1;"></div>
+            <div style="background-color: white;height: 90px;flex:1;"></div>
+        </div>
+
+        <div style="
+        display: flex;">
+            <!--7st-->
+            <div style="background-color: white;height: 90px;flex:1">&#9823</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9823</div>
+            <div style="background-color: white;height: 90px;flex:1">&#9823</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9823</div>
+            <div style="background-color: white;height: 90px;flex:1">&#9823</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9823</div>
+            <div style="background-color: white;height: 90px;flex:1">&#9823</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9823</div>
+        </div>
+
+        <div style="display: flex;
+     ">
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9820</div>
+            <div style="background-color: white;height: 90px;flex:1;">&#9822</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9821</div>
+            <div style="background-color: white;height: 90px;flex:1;">&#9819</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9818</div>
+            <div style="background-color: white;height: 90px;flex:1;">&#9821</div>
+            <div style="background-color: black;height: 90px;flex:1;color:whitesmoke">&#9822</div>
+            <div style="background-color: white;height: 90px;flex:1;">&#9820</div>
+        </div>
+
+    </div>
