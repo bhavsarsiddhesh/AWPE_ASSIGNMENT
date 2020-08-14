@@ -1,0 +1,12 @@
+counter = 1;
+function increment() {
+    let counterEle = document.querySelector("#counterID");
+    counter = counter + 1;
+    counterEle.innerHTML = counter;//(counter+1)
+}
+
+function decrement() {
+    let counterEle = document.querySelector("#counterID");
+    counter = counter - 1;
+    counterEle.innerHTML = counter;//(counter+1)
+}

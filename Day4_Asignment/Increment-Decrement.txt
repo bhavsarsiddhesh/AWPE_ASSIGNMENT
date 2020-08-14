@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="1.js"></script>
+    <style>
+        .AB {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 45px;
+        }
+
+        button {
+            font-size: 36px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="AB">
+        <div id="counterID">1</div>
+        <div>
+            <button onclick="increment()">Increment</button>
+            <button onclick="decrement()">Decrement</button>
+        </div>
+    </div>
+
+</body>

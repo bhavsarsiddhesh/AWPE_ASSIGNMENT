@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .A {
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: tomato;
+        }
+    </style>
+    <script src="Id Selector.js"></script>
+</head>
+
+<body>
+    <div class="A">
+        <div class="ID" onmouseover="mousehover()" onmouseout="mousehoverout()">HELLO CDAC</div>       
+    </div>
+</body>
+
+</html>
+
+===================== JS CODE ======================
+function mousehover() {
+  var id2Element = document.querySelector("div").children[0];
+  id2Element.style.background = "black";
+  id2Element.style.color = "royalblue";
+
+  id2Element.innerHTML = "SELECT BY ELEMENT";
+}
+
+function mousehoverout() {
+  let id2Element = document.querySelector("div").children[0];
+  
+  id2Element.style.color = "tomato";
+
+  id2Element.innerHTML = "HELLO CDAC";
