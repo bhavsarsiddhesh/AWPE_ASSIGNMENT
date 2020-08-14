@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML1</title>
+
+</head>
+
+<body>
+    <h1>Welcome to Cdac</h1>
+    <h2>PG-DAC</h2>
+    <h3>PG-DBDA</h3>
+    <h5>PG-IOT</h5>
+    <a href="HTML2.html"> CLICK HERE TO GO TO THE NEXT PAGE</a>
+</body>
+
+</html>

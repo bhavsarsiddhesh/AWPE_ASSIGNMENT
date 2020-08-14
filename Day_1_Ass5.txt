@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment5</title>
+    <style>
+        .Marvel {
+            color: yellow;
+            background: royalblue;
+
+            margin-bottom: 16px;
+            padding: 12px;
+
+            font-size: 24px;
+            font-family: cursive;
+            text-align: center;
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div class="Marvel"> PHASE 2</div>
+        <div class="Marvel">
+            IRONMAN 2
+        </div>
+        <div class="Marvel">
+            AVENGERS
+        </div>
+        <div class="Marvel">
+            THOR2
+        </div>
+
+    </body>
+
+</body>
+
+</html>

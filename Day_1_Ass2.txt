@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML2</title>
+    <style>
+        .A {
+            color: purple;
+            background-color: sandybrown;
+            font-size: 135%;
+        }
+
+        #id1 {
+            color: skyblue;
+            background-color: tomato;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="color:red;font-size: 18px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, dolorum
+        odio esse itaque nobis corporis atque,
+        quisquam molestiae dicta beatae omnis laborum, consectetur quia veniam deleniti exercitationem odit ipsum amet!
+    </p>
+    <p class="A">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, facilis!</p>
+    <p id="id1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ducimus numquam fugit ipsam quis
+        officiis inventore voluptate a ab debitis ea eos accusantium itaque dolore veniam nesciunt, temporibus nisi
+        possimus.</p>
+    <p>WELCOME TO WEBSITE</p>
+</body>
+
+</html>

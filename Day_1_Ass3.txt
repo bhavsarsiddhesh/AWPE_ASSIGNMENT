@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Color Code & Border-->
+    <div style="color:red;background-color: yellow;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Vitae ad nam aliquam, perferendis repellat atque incidunt excepturi labore sit ab.
+    </div>
+    <!--Border-->
+    <div style="border:2px solid tomato; color: royalblue;">HELLO WORLD</div>
+    <div style="border:2px dotted green">Counter strike</div>
+    <div style="border-bottom:2px solid red">Call Of Duty:World At War</div>
+    <div style="border-left:15px solid yellow">Call Of Duty:Black OPs</div>
+
+</body>
+
+</html>
