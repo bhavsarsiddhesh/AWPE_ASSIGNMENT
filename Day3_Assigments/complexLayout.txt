@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body style="margin: 0;">
+
+   <div style="
+            background-color: skyblue;
+            color: white;
+            height:20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;border:2px solid black">
+      HOME
+   </div>
+
+   <div style="
+     
+     display: flex;">
+      <div style="display: flex; flex: 1;background-color: tomato;color: white;height:60vh;justify-content: center;
+     align-items: center;border:2px solid black">NAVIGATION</div>
+      <div style="display: flex; flex: 5; background-color: yellow;color: RED;height:60vh;justify-content: center;
+     align-items: center;border:2px solid black">MENU</div>
+      <div style="display: flex; flex: 1; background-color: yellowgreen;color: white;height:60vh;justify-content: center;
+     align-items: center;border:2px solid black">ABOUT US</div>
+   </div>
+
+   <div style="
+     height:20vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: violet;
+     color: wheat;border:2px solid red"> CONTACT US</div>
+   <div>
+      <button onclick="alert('Hello Word');">CLICK ME</button>
+   </div>
+</body>
+

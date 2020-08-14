@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image as an Background of Page</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .myclass {
+            height: 100vh;
+
+            /* background: url('s1.jpg') */
+            background: url("https://picsum.photos/id/22/1400/1200");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <div class="myclass" style="display: flex;flex-direction: column;">
+        <div style="font-size: 24px;color:tomato;flex: 1;display:flex;justify-content: space-between;">
+            <div style="padding-left: 10px;">Home</div>
+            <div style="display: flex;justify-content: flex-end;padding-right: 15px;">
+                <div style="padding-left: 15px;">Contact Us</div>
+                <div style="padding-left: 15px;">About Us</div>
+            </div>
+        </div>
+        <div
+            style="color: rgb(13, 10, 158);flex: 12;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+            <div style="font-size: 10rem;">4:40</div>
+            <div style="font-size: 2.5rem;">GOOD MORNING CDACIANS!!!</div>
+        </div>
+        <div
+            style="font-size: 24px;color:white;flex:1;display: flex;justify-content: space-between; font-family: serif;">
+            <div style="padding-left: 15px;">WEATHER REPORT</div>
+            <div>"SWEAT MORE IN TRAINING ; BLEED LESS IN WAR"</div>
+            <div style="padding-right: 15px;">TO DO THINGS</div>
+        </div>
+    </div>
+
+
+</body>
+
