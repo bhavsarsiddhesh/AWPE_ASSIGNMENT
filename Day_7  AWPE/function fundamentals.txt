@@ -1,0 +1,43 @@
+============== Function Fundamentals ===============
+// Named Functions 
+var a=0;
+
+
+var b=0;
+ 
+
+function summation(a,b){
+
+var c= Number (a+b);
+   
+ console.log(c);
+
+}
+
+summation(2,3)
+
+Result: 5
+
+// Annonymous Function 
+
+let Annonymous = function(a,b){ 
+var c= Number (a+b);
+    
+console.log(c);
+}
+
+Annonymous(5,3);
+Result : 8
+
+// Lamda Function / Arrow Function
+let Add = (a,b) => {
+   
+ var c= Number (a+b);
+    
+ console.log(c);
+
+}
+
+Add(10,90)
+
+Result : 100

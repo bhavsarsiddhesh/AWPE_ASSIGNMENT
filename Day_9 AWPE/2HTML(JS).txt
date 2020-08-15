@@ -1,0 +1,15 @@
+var count = 0;
+var b = "Likes "
+function like() {
+    let likecount = document.querySelector("#btn");
+    count++;
+    likecount.innerHTML = b + count;
+}
+
+var DCount = 0;
+var a = "Dislikes "
+function Dislike() {
+    let likecount = document.querySelector("#btn1");
+    DCount++;
+    likecount.innerHTML = a + DCount;
+}

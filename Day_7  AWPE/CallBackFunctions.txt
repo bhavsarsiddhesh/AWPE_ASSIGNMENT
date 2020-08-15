@@ -1,0 +1,39 @@
+// Callback Functions
+function helloWorld(fn) {
+  fn();
+}
+
+// case-1
+// using annonymous functions
+helloWorld(function () {
+   var c= Number (a+b);
+   
+   console.log(c);
+   console.log("Callback using Annonymous");
+});
+
+// case-2
+helloWorld(() => {
+ var c= Number (a+b);
+   
+  console.log(c);
+  console.log("Callback using Arrow functions");
+});
+
+// case-3
+let callbckFn = function () {
+   var c= Number (a+b);
+   
+  console.log(c);
+  console.log("Callback using annynomus; via variable");
+};
+helloWorld(callbckFn);
+
+// Case - 4
+let arrwFn = () => {
+  var c= Number (a+b);
+   
+  console.log(c);
+  console.log("Callback using Arrow; via variable");
+};
+helloWorld(arrwFn);

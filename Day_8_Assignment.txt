@@ -1,0 +1,134 @@
+======================== Array Fundamental - Add,Updated,Delete,Access Operation ========================
+
+let arr = [];
+
+
+let arr = [1, 2, 3];
+let arr = ["A", "B", "C"];
+let arr = [1.1, 2.2, 3.3];
+
+
+let arr = [1, "A", 3.14, false];
+
+
+let arr = [1, "A", 3.14, true, () => {}, 11, function () {}];
+
+
+let arr = ["Siddhesh", "Aditya","Om", "Soham", "Yash"]; 
+
+let SecondItem = arr[1]; 
+let anyItem = arr[3]; 
+
+
+let arr = ["Siddhesh", "Aditya","Om", "Soham", "Yash"]; 
+for (let i = 0; i < arr.length; i++) {
+  const item = arr[i];
+  console.log(item); 
+}
+
+
+let arr = ["Siddhesh", "Aditya","Om", "Soham", "Yash"];
+
+arr.push("Ravi");
+
+arr.pop();
+
+arr[0] = "Ashu";
+
+
+let arr = ["Siddhesh", "Aditya","Om", "Soham", "Yash"]; 
+arr.splice(2, 0, "Ashu");
+let arr = ["Siddhesh", "Aditya","Ashu","Om", "Soham", "Yash"]; 
+
+
+arr.splice(4, 2);
+
+
+let arr = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr.length; i++) {
+  const item = arr[i];
+  console.log(item); 
+}
+
+
+=================================== Global Functions Fundamental ========================================
+setInterval(function () {
+  
+  console.log("using annonymous Function!!");
+}, 1000);
+
+
+setInterval(() => {
+  
+  console.log("using Arrow function");
+}, 1000);
+
+
+let anfn = function () {
+  
+  console.log("parameter inside the setinveral");
+};
+setInterval(anfn, 1000);
+
+
+JSON Object Fundamental - Create and Access properties
+
+let ref = {};
+
+
+let person = {
+  name: "Aditya",
+};
+
+let person = {
+  "first-name": "Aditya",
+};
+
+let person = {
+  firstName: "Om",
+};
+
+let person = {
+  id: 10,
+};
+
+let person = {
+  list: [1, 2, 3],
+};
+
+
+let person = {
+  id: 101,
+  firstName: "Aditya",
+  lastName: "Bhavsar",
+};
+
+
+let person = {
+  id: 10,
+  firstName: "Ashwini",
+  lastName: "Jadhav",
+};
+
+
+let list = [1, 2, 3];
+let list = ["a", "b", "c"];
+
+
+let list = [
+  {
+    id: 10,
+    firstName: "Aditya",
+  },
+  {
+    id: 11,
+    firstName: "Om",
+  },
+];
+
+
+let person = { id: 1, firstName: "Aditya" };
+let list = [person];
+
+
+
